@@ -1,0 +1,17 @@
+# APIキーを含む .env ファイル
+.env
+
+# 仮想環境フォルダ
+venv/
+
+# Pythonのキャッシュフォルダ
+__pycache__/
+
+# macOS固有のファイル (macOSを使っている場合)
+.DS_Store
+
+# Streamlitの秘匿情報と設定
+.streamlit/
+
+# VS Code editor settings
+.vscode/
