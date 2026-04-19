@@ -19,7 +19,7 @@ MIN_REQUEST_INTERVAL = 1.0  # 最小リクエスト間隔（秒）
 CACHE_EXPIRY_HOURS = 24  # キャッシュの有効期限（時間）
 
 # --- 機能の有効化/無効化スイッチ ---
-ENABLE_PAPER_SEARCH = False  # Trueにすると有効、Falseにすると無効
+ENABLE_PAPER_SEARCH = True  # Trueにすると有効、Falseにすると無効
 
 # --- 定数設定 ---
 API_TIMEOUT = 30  # APIリクエストのタイムアウト（秒）

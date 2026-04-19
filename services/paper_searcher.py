@@ -26,7 +26,7 @@ class PaperSearcher:
         
         # Geminiモデル初期化
         genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-        self.model = genai.GenerativeModel('gemini-1.5-flash')
+        self.model = genai.GenerativeModel('gemini-2.5-flash')
 
     def search_papers(self, query: str, limit: int = 3) -> List[Dict[str, Any]]:
         """キャッシュ付きの論文検索"""

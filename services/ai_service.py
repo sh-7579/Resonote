@@ -12,7 +12,7 @@ import streamlit as st
 class AIService:
     def __init__(self, api_key: str):
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel('gemini-1.5-flash')
+        self.model = genai.GenerativeModel('gemini-2.5-flash')
         self.paper_searcher = PaperSearcher()
 
     def start_chat_session(self, past_records_text: str, paper_info: str) -> Any:

@@ -15,3 +15,6 @@ __pycache__/
 
 # VS Code editor settings
 .vscode/
+
+# Claude Code settings
+.claude/
